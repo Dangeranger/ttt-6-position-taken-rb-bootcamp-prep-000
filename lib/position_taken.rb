@@ -1,3 +1,3 @@
 def position_taken?(board, index)
-  board[index].blank?
+  board[index].nil? || board[index] == ' '
 end
